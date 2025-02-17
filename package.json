@@ -1,16 +1,23 @@
 {
-  "name": "widget",
+  "name": "tww-season-1-cutoff-webpack-widget",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "An OBS widget to display the Mythic+ Title Cutoff",
+  "main": "src/script.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "obs",
+    "widget",
+    "mythic+",
+    "raider.io"
+  ],
+  "author": "Chipset",
+  "license": "MIT",
   "devDependencies": {
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1"
+    "webpack": "^5.x.x",
+    "webpack-cli": "^5.x.x"
   },
   "dependencies": {
     "acorn": "^8.14.0",
@@ -95,6 +102,5 @@
     "webpack-sources": "^3.2.3",
     "which": "^2.0.2",
     "wildcard": "^2.0.1"
-  },
-  "description": ""
+  }
 }
