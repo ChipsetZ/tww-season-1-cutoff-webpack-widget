@@ -15,7 +15,7 @@ This widget displays the current Mythic+ Title cutoff score from Raider.IO for t
 ## Usage in OBS
 
 1. In OBS Studio, add a "Browser" source.
-2. Set the "Local file" property to the `index.html` file in the `dist` folder.
+2. Set the "Local file" property to the `index.html`.
 3. Adjust the width and height of the browser source to fit your desired layout.
 
 ## Development
